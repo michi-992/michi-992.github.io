@@ -1,0 +1,263 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+    #about, #projects, #contact {
+        width: 80%;
+    }
+
+    #item9 {
+        grid-column: span 6;
+    }
+    
+    #item10 {
+        grid-column: span 6;
+    }
+    
+    form {
+        width: 80%;
+    }
+
+    #hero {
+        padding: 120px 0px 100px 0px;
+        background-image: url("data:image/svg+xml,%3Csvg width='2250' height='700' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300ECBD'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300ECBD'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+
+    
+    #hero h1 {
+        font-size: 30px;
+        width: 670px;
+    }
+    
+    #hero h3 {
+        font-size: 20px;
+        width: 570px;
+    }
+
+    #hero h1 {
+        animation: animated-cursor-h1 800ms linear infinite;
+    }
+
+    @keyframes animated-cursor-h1{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+
+
+    #hero h3 {
+        animation: animated-cursor-h3 800ms linear infinite;
+    }
+    
+    @keyframes animated-cursor-h3{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+}
+
+    
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: linear-gradient(170deg, black 0%, #0A1F3F 100%);
+        border-radius: 20px;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 180px;
+        padding: 10px 0;
+        text-align: right;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+
+    .nav-links a {
+        padding: 15px 20px;
+        color: white;
+        display: block;
+        text-align: right;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    #hero {
+        padding: 90px 0px 70px 0px;
+        background-image: url("data:image/svg+xml,%3Csvg width='2250' height='500' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300ECBD'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300ECBD'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+
+    #hero h1 {
+        font-size: 22px;
+        width: 500px;
+    }
+    
+    
+    #hero h3 {
+        font-size: 16px;
+        width: 460px;
+    }
+
+    #hero h1 {
+        animation: animated-cursor-h1 800ms linear infinite;
+    }
+
+    @keyframes animated-cursor-h1{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+
+
+    #hero h3 {
+        animation: animated-cursor-h3 800ms linear infinite;
+    }
+    
+    @keyframes animated-cursor-h3{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+    
+
+    #about, #projects, #contact, .project-details {
+        width: 95%;
+    }
+
+    #grid-container {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .project-container, .ccl-project-container, .other-project-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 2rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+       
+    #item1 {
+        grid-column: 1 / span 6;
+        grid-row: 1;
+    }
+    #item2 {
+        grid-column: 1 / span 6;
+        grid-row: 2;
+    }
+    #item3 {
+        grid-column: 1 / span 6;
+        grid-row: 3;
+    }
+    #item4 {
+        grid-column: 1 / span 6;
+        grid-row: 4;
+    }
+    #item5 {
+        grid-column: 1 / span 6;
+        grid-row: 5;
+    }
+    #item6 {
+        grid-column: 1 / span 6;
+        grid-row: 6;
+    }
+    #item7 {
+        grid-column: 1 / span 6;
+        grid-row: 7;
+    }
+    #item8 {
+        grid-column: 1 / span 6;
+        grid-row: 8;
+    }
+
+    #project-headline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-headline h2 {
+        margin-top: 12px;
+    }
+
+    .go-back-link {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #project-tools svg, #svg-container svg, #frontend-container svg, #other-container svg , #design-container svg {
+        height: 35px;
+        width: 35px;
+    }
+
+}
+ 
+@media (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+
+    #hero {
+        padding: 60px 0px 40px 0px;
+        background-image: url("data:image/svg+xml,%3Csvg width='2250' height='500' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300ECBD'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300ECBD'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    }
+
+    #hero h1 {
+        font-size: 20px;
+    white-space: wrap;
+    width: 250px;
+    }
+
+    #hero h3 {
+        font-size: 16px;
+        white-space: wrap;
+        width: 250px;
+    }
+
+    #hero h1 {
+        animation: animated-cursor-h1 800ms linear infinite;
+    }
+
+    @keyframes animated-cursor-h1{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+
+
+    #hero h3 {
+        animation: animated-cursor-h3 800ms linear infinite;
+    }
+    
+    @keyframes animated-cursor-h3{
+        from{border-right-color: rgba(0, 0, 0, 0.5);}
+        to{border-right-color: transparent;}
+    }
+
+    footer > div {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    #project-tools svg, #svg-container svg, #frontend-container svg, #other-container svg, #design-container svg {
+        height: 30px;
+        width: 30px;
+    }
+
+}

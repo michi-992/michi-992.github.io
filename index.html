@@ -1,13 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Michaela Topalovic</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+
+    <link rel="stylesheet" href="/assets/css/stylesMain.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Michroma&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="title">Michaela Topalovic</div>
-    </br>
-    <h1>BOOOOOOOOM</h1>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">// Michaela Topalovic</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div>
+            <h1><span>Hi, I’m Michaela. </span><span>Nice to meet you!</span></h1>
+            <h3>Student // Software Developer // Designer</h3>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div id="grid-container">
+            <div class="grid-item">
+                <div class="vertical-list">
+                    <span>G</span>
+                    <span>E</span>
+                    <span>N</span>
+                    <span>E</span>
+                    <span>R</span>
+                    <span>A</span>
+                    <span>L</span>
+                </div>
+                <p>
+                    As a dedicated student studying Creative Computing, I am passionate about software development and
+                    design, with hands-on experience in web, mobile, and game development.
+                    <br>
+                    <br>
+                    My journey in this field is driven by a love for solving complex problems and a commitment to
+                    crafting engaging user experiences.
+                </p>
+
+            </div>
+
+            <div class="grid-item">
+
+                <div class="vertical-list">
+                    <span>E</span>
+                    <span>D</span>
+                    <span>U</span>
+                    <span>C</span>
+                    <span>A</span>
+                    <span>T</span>
+                    <span>I</span>
+                    <span>O</span>
+                    <span>N</span>
+                </div>
+                <div>
+                    <h3>Creative Computing</h3>
+                    <h4>FH St. Pölten - University of Applied Sciences</h4>
+                    <p class="label">Location</p>
+                    <p>St. Pölten, Austria</p>
+                    <p class="label">Years Attended</p>
+                    <p>2022 - Present</p>
+                    <p class="label">Degree</p>
+                    <p>Bachelor of Science in Engineering</p>
+                </div>
+
+            </div>
+
+            <div class="grid-item">
+                <div class="vertical-list">
+                    <span>D</span>
+                    <span>E</span>
+                    <span>V</span>
+                    <span>E</span>
+                    <span>L</span>
+                    <span>O</span>
+                    <span>P</span>
+                    <span>E</span>
+                    <span>R</span>
+                </div>
+                <div>
+                    <p class="label" style="margin-top: 0px;">Programming Languages</p>
+                    <div id="svg-container"></div>
+                    <p class="label">Frontend Development</p>
+                    <div id="frontend-container"></div>
+                    <p class="label">Other</p>
+                    <div id="other-container"></div>
+                    <p class="label">Github Profile</p>
+                    <a href="https://github.com/michi-992" target="_blank" class="link">michi-992</a>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <!-- <h3>Designer</h3> -->
+                <div class="vertical-list">
+                    <span>D</span>
+                    <span>E</span>
+                    <span>S</span>
+                    <span>I</span>
+                    <span>G</span>
+                    <span>N</span>
+                    <span>E</span>
+                    <span>R</span>
+                </div>
+                <div>
+                    <p class="label" style="margin-top: 0px;">UX & UI</p>
+                    <p>Creating engaging user experiences by designing intuitive interfaces.</p>
+                    <p class="label">Web & App</p>
+                    <p>Building appealing websites and user-friendly mobile apps.</p>
+                    <p class="label">Games & 3D Art</p>
+                    <p>Designing immersive game worlds wih 3D art.</p>
+                    <p class="label">Tools</p>
+                    <div id="design-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container" id="project-container"></div>
+        <a href="pages/projects.html" class="link center">
+            <p>View All</p>
+        </a>
+    </section>
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">UP</button>
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Michaela Topalovic. All Rights Reserved.</p>
+            <div>
+                <a href="https://github.com/michi-992" target="_blank">
+                    <svg width="24" height="24" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                        <path clip-rule="evenodd"
+                            d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                            transform="scale(64)" />
+                    </svg>
+                </a>
+                <a href="https://sketchfab.com/michi12349876" target="_blank">
+                    <svg width="24" height="24" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m1000 69c-515.52 0-933.28 417.84-933.28 933.24s417.76 933.29 933.28 933.29 933.36-417.89 933.36-933.29-417.84-933.24-933.36-933.24z"
+                            fill="none" />
+                        <path
+                            d="m1000 0c-552.32 0-1000 447.72-1000 1000s447.68 1000 1000 1000 1000-447.72 1000-1000-447.6-1000-1000-1000zm-86.88 1595.07-431.12-248.86v-502l431.12 232.79zm76.8-636.19-510.08-270.38 510.08-294.5 510.16 294.5zm510.48 388.29-429.52 248v-516.17l429.52-232z" />
+                    </svg>
+
+                </a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/svg.js"></script>
+    <script src="assets/js/projects.js"></script>
 </body>
+
 </html>
