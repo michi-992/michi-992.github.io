@@ -84,7 +84,7 @@ nav {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Michroma";
     font-weight: bold;
     text-align: center;
@@ -105,7 +105,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 130px 0px 100px 0px;
-    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2332B399' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%2332997F'/%3E%3C/g%3E%3C/svg%3E%0A");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ nav {
     display: flex;
     padding: 80px 0px 70px 0px;
     background-image:
-    url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2332B399' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%2332997F'/%3E%3C/g%3E%3C/svg%3E%0A");
     background-size: 100% auto;
     background-position: center;
     box-shadow: inset black 0px 30 160 -12px;
@@ -430,7 +430,7 @@ form .label {
 form .form-group input,
 form .form-group textarea {
     background: linear-gradient(160deg, rgba(0, 0, 0, 0.5) 0%, rgba(134, 193, 252, 0.1) 100%);
-    border: 1px solid #00A080;
+    border: 1px solid #32B399;
     border-radius: 5px;
     padding: 10px;
     color: #fff;
