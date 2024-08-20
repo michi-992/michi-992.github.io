@@ -34,7 +34,7 @@ header {
 
 .logo {
     font-size: 1.1em;
-    color: #00ECBD;
+    color: #8DF6E1;
     text-decoration-line: none;
 }
 
@@ -56,7 +56,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #00ECBD;
+    color: #8DF6E1;
 }
 
 .hamburger {
@@ -78,7 +78,7 @@ nav {
     position: fixed;
     bottom: 45px;
     right: 45px;
-    background-color: rgba(145, 200, 255, 0.5);
+    background-color: rgba(134, 193, 252, 0.6);
     color: black;
     border: none;
     border-radius: 50%;
@@ -96,7 +96,7 @@ nav {
 }
 
 .scroll-to-top-btn:hover {
-    background-color: rgba(145, 200, 255, 1);
+    background-color: rgba(134, 193, 252, 1);
 }
 
 #hero {
@@ -105,7 +105,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 130px 0px 100px 0px;
-    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300ECBD'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300ECBD'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-image: url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ nav {
     display: flex;
     padding: 80px 0px 70px 0px;
     background-image:
-    url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300ECBD'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300ECBD'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%238DF6E1'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%238DF6E1'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
     background-size: 100% auto;
     background-position: center;
     box-shadow: inset black 0px 30 160 -12px;
@@ -192,8 +192,8 @@ h2 {
     margin: auto;
     margin-bottom: 32px;
     padding: 12px 24px 24px 24px;
-    border: 2px #00ECBD;
-    box-shadow: inset -15px -15px 10px -15px #00ECBD;
+    border: 2px #8DF6E1;
+    box-shadow: inset -15px -15px 10px -15px #8DF6E1;
 }
 
 #about, #projects, #contact {
@@ -250,8 +250,8 @@ h2 {
 }
 
 svg {
-    fill: #00ECBD;
-    opacity: 0.4;
+    fill: #8DF6E1;
+    opacity: 0.6;
     transition: opacity 0.3s ease;
     margin-right: 6px;
 }
@@ -271,7 +271,7 @@ svg:hover {
     font-size: 14px;
     visibility: hidden;
     width: 120px;
-    background-color: rgba(145, 200, 255, 1);
+    background-color: rgba(134, 193, 252, 1);
     color: #000;
     text-align: center;
     border-radius: 6px;
@@ -293,7 +293,7 @@ svg:hover {
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: rgb(145, 200, 255) transparent transparent transparent;
+    border-color: rgb(134, 193, 252) transparent transparent transparent;
   }
   
   .tooltip:hover .tooltiptext {
@@ -309,8 +309,8 @@ svg:hover {
   }
 
 .link {
-    color: rgb(145, 200, 255);
-    opacity: 0.7;
+    color: rgb(134, 193, 252);
+    opacity: 0.8;
     transition: opacity 0.3s ease;
     font-size: 18px;
 }
@@ -332,7 +332,7 @@ svg:hover {
 }
 
 .project-card {
-    background: linear-gradient(160deg, rgba(145, 200, 255, 0.01) 0%, rgba(145, 200, 255, 0.1) 100%);
+    background: linear-gradient(160deg, rgba(134, 193, 252, 0.01) 0%, rgba(134, 193, 252, 0.1) 100%);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -345,7 +345,7 @@ svg:hover {
 .project-logo {
     width: 90%;
     margin: auto;
-    background: linear-gradient(160deg, rgba(0, 0, 0, 0.5) 0%, rgba(145, 200, 255, 0.1) 100%);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.5) 0%, rgba(134, 193, 252, 0.1) 100%);
     border-radius: 10px;
     box-shadow: inset 2px 2px 8px -1px rgba(0, 0, 0, 0.6);
     padding: 10px;
@@ -408,7 +408,7 @@ footer > div > div {
 
 
 form {
-    background: linear-gradient(160deg, rgba(145, 200, 255, 0.01) 0%, rgba(145, 200, 255, 0.1) 100%);
+    background: linear-gradient(160deg, rgba(134, 193, 252, 0.01) 0%, rgba(134, 193, 252, 0.1) 100%);
     border-radius: 8px;
     padding: 0px 30px;
     max-width: 600px;
@@ -429,7 +429,7 @@ form .label {
 
 form .form-group input,
 form .form-group textarea {
-    background: linear-gradient(160deg, rgba(0, 0, 0, 0.5) 0%, rgba(145, 200, 255, 0.1) 100%);
+    background: linear-gradient(160deg, rgba(0, 0, 0, 0.5) 0%, rgba(134, 193, 252, 0.1) 100%);
     border: 1px solid #00A080;
     border-radius: 5px;
     padding: 10px;
@@ -449,13 +449,13 @@ form .form-group textarea {
 }
 form .form-group input:focus,
 form .form-group textarea:focus {
-    border-color: #00ECBD;
-    box-shadow: 0 0 8px rgba(145, 200, 255, 1);
+    border-color: #8DF6E1;
+    box-shadow: 0 0 8px rgba(134, 193, 252, 1);
     outline: none;
 }
 
 form .submit-btn {
-    background-color: #00ECBD;
+    background-color: #8DF6E1;
     width: fit-content;
     margin: 30px auto;
     font-weight: bold;
