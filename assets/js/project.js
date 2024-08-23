@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             toolsList.appendChild(createSvgElement(tool.name, tool.tooltip));
         });
 
-        document.getElementById('project-picture').innerHTML = `<img src="../${projectData.ProjectFolder}1.png"></img>`;
+        document.getElementById('project-picture').innerHTML = `<img src="../${projectData.ProjectFolder}1.png" alt="${projectData.ProjectTitle} Visuals"></img>`;
 
         const featuresList = document.getElementById('project-features');
         projectData.Features.forEach(feature => {

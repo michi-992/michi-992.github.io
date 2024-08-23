@@ -15,8 +15,8 @@ const cclProjects = {
         "Features": [
             "object-oriented coding",
             "navigation using WASD key inputs",
-            "multidimensional scrolling platformer with parallax",
-            "horizontally moving and static platforms",
+            "multidimensional scrolling platformer with parallax effect",
+            "static and horizontally moving platforms",
             "gravity manipulation on contact with orange berry",
             "lose condition activated on fall into a gorge",
         ],
@@ -107,7 +107,7 @@ const cclProjects = {
 
         ],
         "Design": [
-            `extensive user testing for design options (<a class="link" style="font-size: 16px;" href="https://www.figma.com/proto/UTXs457M1gckzW27RAXIkE/CCL3?page-id=407%3A2345&node-id=643-3739&viewport=770%2C384%2C0.16&t=rX7HTBDXP8fQh5Kc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=643%3A3739&show-proto-sidebar=1">here</a>)`,
+            `extensive user testing for design options (<a class="link" style="font-size: 16px;" target="_blank" href="https://www.figma.com/proto/UTXs457M1gckzW27RAXIkE/CCL3?page-id=407%3A2345&node-id=643-3739&viewport=770%2C384%2C0.16&t=rX7HTBDXP8fQh5Kc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=643%3A3739&show-proto-sidebar=1">here</a>)`,
             "consistent branding and aesthetic",
             "guided onboarding process",
             "mascot integration for friendly appearance",
@@ -155,7 +155,7 @@ const cclProjects = {
             "3 characters and over 12 3D props and variations"
         ],
         "Challenges": [
-            { "Consistent Art Style": "Hand-painted textures fo stylized 3D models and characters." },
+            { "Consistent Art Style": "Hand-painted textures for stylized 3D models and characters." },
             { "Asset Acquisition": "Hand-picked and coordinated 3D assets to fit the desired aesthetics." },
             { "Weight Paint": "Refined the weight paint for the witch character to avoid clipping." },
             { "Blender Workflow": "Sped up blender workflow for modelling and texture painting." },
@@ -173,7 +173,7 @@ const otherProjects = {
         "Type": "Mobile Meeting App Design",
         "ProjectFolder": "assets/screenshots/MapMeet/",
         "Summary": "Map Meet is a meetup app designed for marginalized or niche groups, focusing on a welcoming onboarding process and personalized recommendations. It simplifies user experience, helping users connect with like-minded people in a safe and inclusive environment.",
-        "Role": "Designer",
+        "Role": "Solo - Designer",
         "Objective": "Design a user-friendly app that simplifies connections for marginalized groups through intuitive design, personalized recommendations, and essential features like chat, event creation, and location-based info.",
         "Tools": [
             { name: 'figma', tooltip: 'FIGMA' },
@@ -188,8 +188,8 @@ const otherProjects = {
             "location-based updates",
         ],
         "Design": [
-            `HI-FI prototype: <a class="link" style="font-size: 16px;" href="https://www.figma.com/proto/5d06QFZZSL7NGrhY5K5CHQ/Final-Project---Michaela-Topalovic-(cc221043)?page-id=201%3A3265&type=design&node-id=184-9168&viewport=397%2C138%2C0.29&t=OZjA4U93PJZOF7Ah-1&scaling=min-zoom&starting-point-node-id=184%3A9157&mode=design">here</a>`,
-            `wireframing with Wireframing Kit (<a class="link" style="font-size: 16px;" href="https://www.figma.com/community/file/1088410330388921212/lo-fi-wireframe-kit-community-copy">here</a>)`,
+            `HI-FI prototype: <a class="link" style="font-size: 16px;" target="_blank" href="https://www.figma.com/proto/5d06QFZZSL7NGrhY5K5CHQ/Final-Project---Michaela-Topalovic-(cc221043)?page-id=201%3A3265&type=design&node-id=184-9168&viewport=397%2C138%2C0.29&t=OZjA4U93PJZOF7Ah-1&scaling=min-zoom&starting-point-node-id=184%3A9157&mode=design">here</a>`,
+            `wireframing with Wireframing Kit (<a class="link" style="font-size: 16px;" target="_blank" href="https://www.figma.com/community/file/1088410330388921212/lo-fi-wireframe-kit-community-copy">here</a>)`,
             "Consistent visual style through components",
             "simple & inclusive onboarding",
             "micro-interactions for engagement",
@@ -202,7 +202,7 @@ const otherProjects = {
             { "Branding and Logo Creation": "Iterative logo creation and branding guided by component creation." },
         ],
         "Learning":
-            "This project enhanced my creative problem-solving and resilience by overcoming self-doubt and unexpected design challenges. I learned the value of structured planning, components, and their variation, while also identifying areas for growth, particularly in color-palette creation and refining my design process.",
+            "This project enhanced my creative problem-solving and resilience by overcoming self-doubt and unexpected design challenges. I learned the value of structured planning, components, and their variations, while also identifying areas for growth, particularly in color-palette creation and refining my design process.",
         "Visuals": [],
         "SourceDoc": "https://www.figma.com/design/5d06QFZZSL7NGrhY5K5CHQ/Final-Project---Michaela-Topalovic-(cc221043)?node-id=0-1&t=IljHiWBZg27g5iVO-0"
     },
@@ -224,7 +224,7 @@ const otherProjects = {
         "Features": [
             "user registration and authentication with JWT",
             "easy profile management",
-            "themed quiz to assign users to one nations",
+            "themed quiz to assign users to one nation",
             "character team creation and management",
             "commenting system for logged-in users",
             "multi-room chat functionality with ATLA-themed rooms",
@@ -264,12 +264,13 @@ const otherProjects = {
         ],
         "Features": [
             "main menu for game navigation",
-            "three levels with difficulty and NPCs",
+            "three levels with differing difficulty and NPCs",
             "player controls for movement, interaction, and management",
             "save/load functionality via NPCs",
             "JSON integration for setup and states",
             ".NET 8 framework for development",
-            ".vscode configuration for build and run tasks"
+            ".vscode configuration for build and run tasks",
+            "LINQ integration"
         ],
         "Design": [
             "console-based interface for simplicity",
@@ -282,7 +283,7 @@ const otherProjects = {
         ],
         "Challenges": [
             { "Theme selection": "Balanced engaging elements with functional gameplay." },
-            { "Level difficulty": "Designed progressively challenging levels with effective NPC interactions." },
+            { "Level difficulty": "Designed progressively challenging levels with NPC interactions." },
             { "Control design": "Implemented intuitive controls while ensuring gameplay fluidity." },
             { "JSON integration": "Managed complex data formats without disrupting game performance." },
             { "Thorough testing": "Played through all levels and scenarios to identify and resolve bugs." }
@@ -294,7 +295,7 @@ const otherProjects = {
     },
     "Project4": {
         "ProjectTitle": "Balance Bender",
-        "Type": "Banking Web App Design",
+        "Type": "Solo - Banking Web App Design",
         "ProjectFolder": "assets/screenshots/BalanceBender/",
         "Summary": `Balance Bender is a redesigned banking web app for Digital Natives, focusing on a fresh user flow and a unique, engaging theme centered around Avatar: The Last Airbender. The goal is to enhance how young users interact with financial services, bringing the new design to life through a responsive web application.`,
         "Role": "Designer",
@@ -316,15 +317,15 @@ const otherProjects = {
             "unique pop-culture theme",
             "seamless responsive design for mobile and desktop",
             "intuitive navigation and user-friendly flow",
-            `HI-FI Prototype for <a class="link" style="font-size: 16px;" href="https://www.figma.com/proto/VGatKEzPY6tDFQw1NFzYWm/Topalovic_Michaela_cc221043?page-id=1%3A10&type=design&node-id=245-6448&viewport=255%2C244%2C0.06&t=ihoy37Cdhy3bZv0c-1&scaling=min-zoom&starting-point-node-id=245%3A6448&mode=design">desktop</a> and <a class="link" style="font-size: 16px;" href="https://www.figma.com/proto/VGatKEzPY6tDFQw1NFzYWm/Topalovic_Michaela_cc221043?page-id=1%3A9&type=design&node-id=239-4061&viewport=529%2C278%2C0.26&t=21UaLO3Sc9ib5Czw-1&scaling=scale-down&starting-point-node-id=239%3A4061&mode=design">mobile</a> devices`,
+            `HI-FI Prototype for <a class="link" style="font-size: 16px;" target="_blank" href="https://www.figma.com/proto/VGatKEzPY6tDFQw1NFzYWm/Topalovic_Michaela_cc221043?page-id=1%3A10&type=design&node-id=245-6448&viewport=255%2C244%2C0.06&t=ihoy37Cdhy3bZv0c-1&scaling=min-zoom&starting-point-node-id=245%3A6448&mode=design">desktop</a> and <a class="link" style="font-size: 16px;"  target="_blank" href="https://www.figma.com/proto/VGatKEzPY6tDFQw1NFzYWm/Topalovic_Michaela_cc221043?page-id=1%3A9&type=design&node-id=239-4061&viewport=529%2C278%2C0.26&t=21UaLO3Sc9ib5Czw-1&scaling=scale-down&starting-point-node-id=239%3A4061&mode=design">mobile</a> devices`,
             "consistent visual design across devices",
             "strong focus on security in UI design",
             "focal point centered around responsiveness"
         ],
         "Challenges": [
             { "Theme selection": "Balanced engaging themes with functional clarity." },
-            { "Responsive design": "Ensured seamless performance on both mobile and desktop." },
-            { "Security integration": "Implemented TAN authentication without compromising UX." },
+            { "Responsive design": "Ensured seamless design on both mobile and desktop." },
+            { "Security integration": "Designed TAN authentication without compromising UX." },
             { "Usability vs. aesthetics": "Maintained usability while integrating creative elements." },
             { "Testing across devices": "Ensured consistency and functionality on multiple platforms." }
         ],
@@ -374,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const card = document.createElement('div');
                 card.className = 'project-card';
                 card.innerHTML = `
-                  <div class="project-logo"><img src="${projectData.ProjectFolder}logo.png"></div>
+                  <div class="project-logo"><img src="${projectData.ProjectFolder}logo.png" alt="${projectData.ProjectTitle} logo"></div>
                   <h3>${projectData.ProjectTitle}</h3>
                   <p>${projectData.Type}</p>
               `;
@@ -399,7 +400,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const card = document.createElement('div');
                 card.className = 'project-card';
                 card.innerHTML = `
-                  <div class="project-logo"><img src="../${projectData.ProjectFolder}logo.png"></div>
+                  <div class="project-logo"><img src="../${projectData.ProjectFolder}logo.png" alt="${projectData.ProjectTitle} logo"></div>
                   <h3>${projectData.ProjectTitle}</h3>
                   <p>${projectData.Type}</p>
               `;
@@ -424,7 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const card = document.createElement('div');
                 card.className = 'project-card';
                 card.innerHTML = `
-                <div class="project-logo"><img src="../${projectData.ProjectFolder}logo.png"></div>
+                <div class="project-logo"><img src="../${projectData.ProjectFolder}logo.png" alt="${projectData.ProjectTitle} logo"></div>
                 <h3>${projectData.ProjectTitle}</h3>
                 <p>${projectData.Type}</p>
             `;
