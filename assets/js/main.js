@@ -295,10 +295,10 @@ const otherProjects = {
     },
     "Project4": {
         "ProjectTitle": "Balance Bender",
-        "Type": "Solo - Banking Web App Design",
+        "Type": "Banking Web App Design",
         "ProjectFolder": "assets/screenshots/BalanceBender/",
         "Summary": `Balance Bender is a redesigned banking web app for Digital Natives, focusing on a fresh user flow and a unique, engaging theme centered around Avatar: The Last Airbender. The goal is to enhance how young users interact with financial services, bringing the new design to life through a responsive web application.`,
-        "Role": "Designer",
+        "Role": "Solo - Designer",
         "Objective": `To create a High Fidelity Prototype of a responsive web app with a new theme, showcasing a streamlined user flow from login to account review and money transfer, while integrating secure transaction features like TAN authentication.`,
         "Tools": [
             { name: 'figma', tooltip: 'FIGMA' },
